@@ -9,7 +9,7 @@ body{
 .grid-container{
     
     display: grid;
-    grid-template-columns: max(20%) max(50%) max(30%);
+    grid-template-columns: 8cm min(55%) 10cm;
     grid-template-rows: 5cm  1fr;   
 }
 
@@ -48,7 +48,7 @@ img{
 }
 .header{
     
-    grid-column: 2/4; 
+    grid-column: 2/5; 
     box-shadow: 3px 3px 6px  grey;
     padding-bottom: 0.2cm;
     background-color: white;
