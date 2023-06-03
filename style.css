@@ -16,9 +16,7 @@ body{
 .sidebar{
     grid-row: 1/4;    
     background-color: rgb(0, 180, 105);
-    position: fixed;
-    left: -9px;
-    height: 23cm;   
+    
 }
 
 .sidebar h1 {
@@ -54,9 +52,7 @@ img{
     box-shadow: 3px 3px 6px  grey;
     padding-bottom: 0.2cm;
     background-color: white;
-    position: fixed;
-    left: 15%;
-    right: 0;
+    
 }
 .header-part-1,
 .header-part-2{
@@ -195,9 +191,10 @@ button{
     }
     .sidebar{
         position: fixed;
-        width: 3.3cm;
+        width: 3cm;
         height: 21cm;
         left: 2px;
+
     }
     .sidebar h1 div{
         margin-right: 0.5cm;
@@ -221,11 +218,11 @@ button{
     }
 
     li>div{
-        font-size: 20px;
+        font-size: 18px;
     } 
     .header{
         position: fixed;
-        left: 3.35cm;
+        left: 3.1cm;
     }
     input{
         width: 2.5cm;
